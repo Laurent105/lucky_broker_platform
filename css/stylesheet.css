@@ -1617,6 +1617,18 @@ input[type="search"] {
 
 /* Small Devices, Tablets */
 
+@media (max-width: 2561px) {
+  .offer {
+    background-size: cover;
+  }
+}
+
+@media (max-width: 2000px) {
+  .offer {
+    background-size: auto;
+  }
+}
+
 @media (max-width: 1920px) {
   .screenshots-intro {
     z-index: 0;
